@@ -266,3 +266,50 @@ Deleted branch test (was bd688eb).
 ```
 
 <br /><br />
+
+## Клонирование внешнего репозитория на локальный ПК
+
+<br />
+
+### **git clone <URL репозитория>**
+
+<br />
+
+```bash
+$ git clone https://github.com/Fomhair/GB_lessons.git
+Cloning into 'GB_HomeWork'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+```
+
+<br /><br />
+
+## Получение изменений и слияние с локальной версией
+
+<br />
+
+### **git pull**
+
+<br />
+
+```bash
+$ git pull
+```
+
+<br /><br />
+
+## Отправляет локальную версию репозитория на внешний
+
+<br />
+
+### **git push**
+
+<br />
+
+```bash
+$ git push origin main
+```
+
+<br /><br />
