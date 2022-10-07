@@ -296,6 +296,22 @@ Receiving objects: 100% (3/3), done.
 
 ```bash
 $ git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 99.75 KiB | 1.61 MiB/s, done.
+From https://github.com/Fomhair/GB_HomeWork
+   051e04a..48ecb72  main       -> origin/main
+Updating 051e04a..48ecb72
+Fast-forward
+ images/git_checkout_branchname.png | Bin 0 -> 13532 bytes
+ images/git_diff.png                | Bin 0 -> 26421 bytes
+ images/graph.png                   | Bin 0 -> 65280 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 images/git_checkout_branchname.png
+ create mode 100644 images/git_diff.png
+ create mode 100644 images/graph.png
 ```
 
 <br /><br />
